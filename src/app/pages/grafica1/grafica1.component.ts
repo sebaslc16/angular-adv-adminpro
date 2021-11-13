@@ -13,4 +13,10 @@ export class Grafica1Component implements OnInit {
   ngOnInit(): void {
   }
 
+  public labels1: string[] = ['Pan', 'Refresco', 'Carne'];
+
+  public data1 = [
+    [450, 550, 200]
+  ];
+
 }
